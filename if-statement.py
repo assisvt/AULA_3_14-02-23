@@ -47,3 +47,19 @@ else:
     print(f"Peso ideal = {peso_ideal:.2f} Kg")
 # obs: código genérico, se eu digitar qualquer outro valor diferente de 2,
 # será selecionado o else que o peso da mulher
+--
+# Elabore o programa que verifics se o o usuário digitou a senha correta.
+# Mostre a mensagem "senha incorreta." ou "Acesso liberado."
+# Supondo que a senha correta seja 123.
+'''senha = int(input("Digite a senha:  "))
+if senha == 123:
+    print("Acesso liberado.")
+else:
+    print("Senha incorreta.")'''
+
+senha = str(input("Digite a senha: "))
+if senha == "1b3":
+    print("Acesso liberado.")
+else:
+    print("Senha incorreta.")
+
