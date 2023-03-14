@@ -4,7 +4,7 @@ if valor >= 100:
 else:
     print("Valor menor do que cem.")
 print("Ademais, o valor que você escolheu foi:", valor)
----
+--
 # Faça um programa que calcule a média aritmética de um aluno que realizou duas avaliações.
 # Além do valor da média, inclua na tela de saída uma das menssagens: "Aluno aprovado." ou "Aluno reprovado."
 # aprovado: maior ou igual a 5
@@ -17,6 +17,20 @@ if media >= 5:
 else:
     print(f'Aluno reprovado com média = {media:.2f}')
 # ALTERAÇÕES: mostre o valor da média aritmética com duas casas decimais
-
- ---
-
+--
+# Solução 1
+# Elabore o programa que verifica se o valor inteiro fornecido pelo usuário é par ou ímpar.
+# Analise o problema e verifique quais são os dados que o usuário precisa fornecer.
+valor = int(input("Digite um número: ")) # receba o número digitado
+resto = valor % 2 # pega o resto da divisão de dois números
+if resto == 0: # verifica se o valor da variável resto = 0, se o número é par
+    print("Número par.")
+else: #caso contrário
+    print("Número ímpar.")
+ --
+# solução 2
+valor = int(input("Digite um número: "))
+if valor % 2 == 0:
+    print(f"O número {valor} é par")
+else:
+    print(f"Número {valor} é ímpar.")
