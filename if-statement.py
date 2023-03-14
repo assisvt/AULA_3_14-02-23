@@ -64,7 +64,7 @@ else:
     print("Senha incorreta.")
 --
 # Elabore um programa que leia um número qualquer e verifique se ele é positivo, nulo ou negativo.
-num = float(input("Digite um número: "))
+num = int(input("Digite um número: "))
 if num > 0:
     print("O número é positivo")
 elif num < 0:
