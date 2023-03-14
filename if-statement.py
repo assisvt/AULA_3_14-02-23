@@ -34,3 +34,16 @@ if valor % 2 == 0:
     print(f"O número {valor} é par")
 else:
     print(f"Número {valor} é ímpar.")
+--
+# altura: X
+# genero: 1 ou 2
+altura = float(input("Altura: ")) #Lê, converte para float e atribui à variável
+genero = int(input("[1]- para Masculino\n[2]- para Feminino\nOpção: "))
+if genero == 1:
+    peso_ideal = 72.7 * altura - 58
+    print(f"Peso ideal = {peso_ideal:.2f} Kg" )
+else:
+    peso_ideal = 62.1 * altura - 44.7
+    print(f"Peso ideal = {peso_ideal:.2f} Kg")
+# obs: código genérico, se eu digitar qualquer outro valor diferente de 2,
+# será selecionado o else que o peso da mulher
