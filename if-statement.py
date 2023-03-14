@@ -13,6 +13,10 @@ nota1 = float(input("Qual foi a sua nota na primeira prova? "))
 nota2 = float(input("Qual foi a sua nota na segunda prova? "))
 media = (nota1 + nota2)/2 #parênteses obrigatórios
 if media >= 5:
-    print("Aluno aprovado com média", media)
+    print(f'Aluno aprovado com média = {media:.2f}')
 else:
-    print("Aluno reprovado com média", media)
+    print(f'Aluno reprovado com média = {media:.2f}')
+# ALTERAÇÕES: mostre o valor da média aritmética com duas casas decimais
+
+ ---
+
