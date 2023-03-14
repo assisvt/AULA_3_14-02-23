@@ -28,7 +28,7 @@ if resto == 0: # verifica se o valor da variável resto = 0, se o número é par
 else: #caso contrário
     print("Número ímpar.")
  --
-# solução 2
+# solução 2 (mais formaado/resumido)
 valor = int(input("Digite um número: "))
 if valor % 2 == 0:
     print(f"O número {valor} é par")
