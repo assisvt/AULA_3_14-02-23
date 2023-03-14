@@ -62,4 +62,12 @@ if senha == "1b3":
     print("Acesso liberado.")
 else:
     print("Senha incorreta.")
-
+--
+# Elabore um programa que leia um número qualquer e verifique se ele é positivo, nulo ou negativo.
+num = float(input("Digite um número: "))
+if num > 0:
+    print("O número é positivo")
+elif num < 0:
+    print("O número é negativo")
+else:
+    print("O número é nulo")
