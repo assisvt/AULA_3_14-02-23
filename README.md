@@ -1,1 +1,1 @@
-# Aula de Python - exercícios da faculdade
+# Aula de Python - exercícios faculdade
